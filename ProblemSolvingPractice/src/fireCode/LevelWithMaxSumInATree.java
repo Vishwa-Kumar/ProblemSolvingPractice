@@ -30,7 +30,10 @@ public class LevelWithMaxSumInATree {
 	}
 
 	public int findMaxSumLevel(TreeNode root) {
-
+		if(root==null)
+		{
+			return -1;
+		}
 		Queue<TreeNode> q = new LinkedList<>();
 		q.add(root);
 		TreeNode node;
