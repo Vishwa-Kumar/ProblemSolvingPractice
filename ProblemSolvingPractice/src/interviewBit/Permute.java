@@ -44,7 +44,6 @@ public class Permute {
 	public ArrayList<Integer> createSubarray(ArrayList<Integer> A,int ele)
 	{
 		ArrayList<Integer> subArray=new ArrayList<Integer>();
-		
 		for(int i:A)
 		{
 			if(i==ele)
@@ -54,7 +53,6 @@ public class Permute {
 			subArray.add(i);
 		}
 		return subArray;
-		
 	}
 
 }

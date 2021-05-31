@@ -1,4 +1,4 @@
-package leetcode.amazon.dp;
+package leetCode.amazon.dp;
 
 public class MaximumSubArray {
 
